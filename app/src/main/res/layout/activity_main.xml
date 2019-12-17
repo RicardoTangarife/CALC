@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:text="Resultado"
+        android:textSize="40sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorCafeBack"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/uno" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/dos" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/tres" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/bt_style"
+                android:onClick="onOper"
+                android:text="@string/mas" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorCafeBack"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/cuatro" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/cinco" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/seis" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/bt_style"
+                android:onClick="onOper"
+                android:text="@string/menos" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorCafeBack"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/siete" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/ocho" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/nueve" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/bt_style"
+                android:onClick="onOper"
+                android:text="@string/por" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorCafeBack"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/bt_style"
+                android:onClick="onBorr"
+                android:text="@string/borrar" />
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/bt_style"
+                android:onClick="onDigit"
+                android:text="@string/cero" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/bt_style"
+                android:onClick="onIgual"
+                android:text="@string/igual" />
+
+            <Button
+                android:id="@+id/button16"
+                style="@style/bt_style"
+                android:onClick="onOper"
+                android:text="@string/dividido" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
