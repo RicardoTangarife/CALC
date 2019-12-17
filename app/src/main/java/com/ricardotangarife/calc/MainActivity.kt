@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         }
         else{
             textView.text = (view as Button).text.toString()
+            error = false
         }
         lastNum = true
     }
